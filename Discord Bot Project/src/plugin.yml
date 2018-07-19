@@ -1,0 +1,6 @@
+name: Bot
+main: me.NinetyNine.bot.BotMain
+version: 1.0
+author: NinetyNine
+description: idk
+depend: [Discord-ProgramBot-API]
