@@ -19,7 +19,7 @@ public class BotMain {
 	public static void main(String[] args) {
 		try {
 			jda = new JDABuilder(AccountType.BOT)
-					.setToken("NDUxMjIxMTEwOTE5Mzk3Mzgy.DjDEGA.BLesKUGfqqNVG1rTUK6zOmt2smk").buildBlocking();
+					.setToken("insert token here").buildBlocking();
 		} catch (LoginException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
